@@ -1,0 +1,15 @@
+<header class="header">
+  <div class="logo">Bhavesh<span>.</span></div>
+  <nav>
+    <a class="nav-link" href="#home" [class.active]="active === 'home'" (click)="scrollTo('home', $event)">Home</a>
+    <a class="nav-link" href="#projects" [class.active]="active === 'projects'" (click)="scrollTo('projects', $event)">Projects</a>
+    <a class="nav-link" href="#skills" [class.active]="active === 'skills'" (click)="scrollTo('skills', $event)">Skills</a>
+    <a class="nav-link" href="#about" [class.active]="active === 'about'" (click)="scrollTo('about', $event)">About</a>
+    <a class="nav-link" href="#contact" [class.active]="active === 'contact'" (click)="scrollTo('contact', $event)">Contact</a>
+  </nav>
+  <div>
+    <button class="theme-btn" (click)="toggleTheme()">
+      <i [class]="isLight ? 'fas fa-moon' : 'fas fa-sun'"></i>
+    </button>
+  </div>
+</header>
