@@ -25,6 +25,7 @@ h2::after {
 .card {
     background: var(--card);
     padding: 1rem;
+    text-align: center;
     border-radius: 12px;
     transition: transform .22s;
     box-shadow: 2px 2px 6px rgba(144, 144, 144, 0.1);
