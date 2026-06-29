@@ -43,10 +43,10 @@
 .hero-inner::before {
   content: "";
   position: absolute;
-  top: -150px;
+  top: -170px;
   left: -100px;
   width: 500px;
-  height: 600px;
+  height: 500px;
   background: radial-gradient(circle at 30% 30%, rgba(0,123,255,0.3), transparent 70%),
               radial-gradient(circle at 70% 70%, rgba(255,0,255,0.3), transparent 70%);
   filter: blur(80px);
